@@ -155,15 +155,15 @@ const RoomsFeaturesPage = () => {
       </div>
       <Modal size="lg" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>预览</Modal.Title>
+          <Modal.Title>Preview</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Image src={currImg} rounded style={{width:'100%'}}/>
         </Modal.Body>
         <Modal.Footer>
-          <button className="btn btn-outline-primary" onClick={handleClose}>
+          {/* <button className="btn btn-outline-primary" onClick={handleClose}>
             关闭
-          </button>
+          </button> */}
         </Modal.Footer>
       </Modal>
     </>
