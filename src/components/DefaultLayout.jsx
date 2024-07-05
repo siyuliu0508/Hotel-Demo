@@ -14,26 +14,26 @@ const HeaderComponent = () => {
 
         <ul className="nav nav-pills">
           <li className="nav-item">
-            <a href="/#" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <a href="/Hotel-Demo/#" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
               Home
             </a>
           </li>
           <li className="nav-item">
             <a
-              href="/#roomsFeatures"
+              href="/Hotel-Demo/#roomsFeatures"
               className={location.pathname === "/roomsFeatures" ? "nav-link active" : "nav-link"}
             >
               Rooms Features
             </a>
           </li>
           <li className="nav-item">
-            <a href="/#bookNow" className={location.pathname === "/bookNow" ? "nav-link active" : "nav-link"}>
+            <a href="/Hotel-Demo/#bookNow" className={location.pathname === "/bookNow" ? "nav-link active" : "nav-link"}>
               Book Now
             </a>
           </li>
           <li className="nav-item">
             <a
-              href="/#sendUsAMessage"
+              href="/Hotel-Demo/#sendUsAMessage"
               className={location.pathname === "/sendUsAMessage" ? "nav-link active" : "nav-link"}
             >
               Send us a message
